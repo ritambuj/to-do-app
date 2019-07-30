@@ -1,0 +1,85 @@
+body {
+  font-family: 'Helvetica', arial, sans-serif;
+  background-color: white;
+
+}
+
+.container {
+    max-width: 350px;
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 19px 0 #ccd2d8;
+}
+.addBtn {
+    padding: 10px;
+    background: #754ef9;
+    float: left !important;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border: 1px solid #754ef9;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input {
+    width: 71%;
+    margin: 0;
+    border: 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+h1, h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+h2 {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  color: #899098;
+  font-weight: 400;
+  border-bottom: 1px solid #cfcbcc;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+ul li:before {
+  content: "\25A1";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+ul li:hover {
+  cursor: pointer;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+
+.checked {
+  color: #155724;
+}
+.checked:before {
+  content: "\2713";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.checked:hover {
+  text-decoration: none;
+}
+.checked:hover:after {
+  content: "";
+  color: tomato;
+}
